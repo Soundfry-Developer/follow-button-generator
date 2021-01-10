@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="icon.png" />
-  <title>Soundfry - Profile Follow Button Generator</title>
-<link rel='stylesheet' href='all.min.css'>
-<link rel="stylesheet" href="bootstrap.min.css">
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="container">
-  <h1><i class="soundfry"></i> Soundfry Profile Follow Button Generator</h1>
-  <div class="card">
-    <div class="card-body">
-      <input type="text" id="username" class="w-100 form-control" placeholder="Enter Soundfry Username">
-      <div class="mt-2">
-        <strong>Code</strong>
-      <textarea class="form-control d-inline" rows="2" cols="80" id="embed-url"></textarea>
-        &nbsp;<button class="btn btn-secondary" id="copy"><i class="fa fa-copy"></i> Copy</button>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundfry - Profile Follow Button Generator</title>
+    <link rel='stylesheet' href='all.min.css'>
+    <link rel="stylesheet" href="bootstrap.min.css">
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="container">
+      <h1><i class="soundfry"></i> Soundfry Profile Follow Button Generator</h1>
+      <div class="card">
+        <div class="card-body">
+          <strong>Enter Your Soundfry Username</strong>
+          <input type="text" id="username" class="w-100 form-control" placeholder="Username">
+          <div class="mt-2">
+            <strong>Code</strong>
+            <textarea class="form-control d-inline" rows="2" cols="80" id="embed-url"></textarea>
+            &nbsp;<button class="btn btn-secondary" id="copy"><i class="fa fa-copy"></i> Copy</button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card">
+        <div class="card-body">
+          <b>Examples:</b>
+          <div class="mt-2">
+            <a href="https://soundfry.com/soundfry"><div class="sfb sfb-outline-primary"><i class="soundfry"></i> Follow</div></a>
+            <a href="https://soundfry.com/soundfry"><div class="sfb sfb-outline-primary"><i class="soundfry"></i></div></a>
+            <a href="https://soundfry.com/soundfry"><div class="sfb sfb-primary"><i class="soundfry"></i> Follow</div></a>
+            <a href="https://soundfry.com/soundfry"><div class="sfb sfb-primary"><i class="soundfry"></i></div></a>
+            <a href="https://soundfry.com/soundfry"><div class="sfb sfb-primary sfb-sm"><i class="soundfry"></i></div></a>
+            <a href="https://soundfry.com/soundfry"><div class="sfb sfb-primary sfb-lg"><i class="soundfry"></i></div></a>
+            <a href="https://soundfry.com/soundfry"><div class="sfb" style="color:black;background-color:white;border-color:black"><i class="soundfry"></i> Follow</div></a>
+            <a href="https://soundfry.com/soundfry"><div class="sfb" style="color:black;background-color:white;border-color:black"><i class="soundfry"></i></div></a>
+            <a href="https://soundfry.com/soundfry"><div class="sfb" style="color:black;background-color:cyan;border-color:black"><i class="soundfry"></i> Follow</div></a>
+            <a href="https://soundfry.com/soundfry"><div class="sfb"><i class="soundfry"></i></div></a>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-    </div>
-  </div>
-</div>
-<!-- partial -->
-  <script src='clipboard.min.js'></script><script src="script.js"></script>
-  <script async src="https://dl.dropboxusercontent.com/s/a64gkohkd5nmcmu/app.js" charset="utf-8"></script>
-</body>
+    <!-- partial -->
+    <script src='clipboard.min.js'></script><script src="script.js"></script>
+    <script async src="https://dl.dropboxusercontent.com/s/a64gkohkd5nmcmu/app.js" charset="utf-8"></script>
+  </body>
 </html>
