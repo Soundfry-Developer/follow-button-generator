@@ -19,5 +19,3 @@ Preview Link: https://soundfry-developer.github.io/follow-button-generator
 ```html
 <a href="https://soundfry.com/suraj"><div class="sfb"><i class="soundfry"></i></div></a><script async src="https://dl.dropboxusercontent.com/s/a64gkohkd5nmcmu/app.js" charset="utf-8"></script>
 ```
-Thank You
-Soundfry Team
