@@ -1,5 +1,5 @@
 var value = 
-    '<a href="https://soundfry.com/{:permalink}"><div class="sfb sfb-outline-primary"><i class="soundfry"></i> Follow</div></a><script async src="https://dl.dropboxusercontent.com/s/a64gkohkd5nmcmu/app.js" charset="utf-8"></script>';
+    '<a href="https://soundfry.com/{:permalink}" target="_blank"><div class="sfb sfb-outline-primary"><i class="soundfry"></i> Follow</div></a><script async src="https://dl.dropboxusercontent.com/s/a64gkohkd5nmcmu/app.js" charset="utf-8"></script>';
 var input = document.getElementById('username');
 input.oninput = function (e) {
   const textarea = document.getElementById('embed-url');
